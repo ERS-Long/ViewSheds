@@ -32,3 +32,8 @@ cmv settings
                 }
             },   
 
+in CMV
+ ![alt tag](/Capture11.PNG)
+
+open the exported shp file in QGIS Desktop 
+  ![alt tag](/Capture22.PNG)
