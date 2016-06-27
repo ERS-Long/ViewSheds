@@ -14,3 +14,21 @@ in my map, i also use jquery stuff, so i have the following refernce line
 
 my test shows it does not conflict with the jquery stuff i am using in my CMV project.
 
+
+cmv settings
+
+
+            ViewSheds: {
+                include: true,
+                id: 'ViewSheds',
+                type: 'titlePane',
+                canFloat: true,
+                path: 'widgets/ViewSheds',
+                title: '<i class="icon-large icon-upload"></i>&nbsp;&nbsp;Create View Shed',
+                position: 32,
+                open: false,
+                options: {
+                    map: true
+                }
+            },   
+
