@@ -1,0 +1,22 @@
+<div>
+      <div>
+            <label>View Distance:</label>
+            <br>
+            <input type="text" name="Distance" id="Distance" value="5">&nbsp;<span id="errmsg"></span>
+            <br>
+      </div>
+      <div>
+            <label>Distance Units:</label>
+            <br>
+            <select id="distanceunit">
+                  <option value="esriMeters">esriMeters</option>
+                  <option value="esriMiles" selected>esriMiles</option>
+                  <option value="esriKilometers">esriKilometers</option>
+            </select> 
+            <br>
+      </div>
+      <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa fa-pencil-square-o fa-fw',showLabel:true,disabled:false" data-dojo-attach-point="btnShed" data-dojo-attach-event="click:onShed">View Shed</button>
+      <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa fa-trash-o fa-fw',showLabel:true,disabled:false" data-dojo-attach-point="btnClear" data-dojo-attach-event="click:onClear">Clear</button>
+      <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa fa-trash-o fa-fw',showLabel:true,disabled:false" data-dojo-attach-point="btnExport" id="btnExport" data-dojo-attach-event="click:onExport">Export</button>
+
+</div>
